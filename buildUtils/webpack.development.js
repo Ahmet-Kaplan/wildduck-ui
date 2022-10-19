@@ -33,16 +33,4 @@ module.exports = {
 			},
 		],
 	},
-	plugins: [new webpack.HotModuleReplacementPlugin()],
-	devServer: {
-		compress: true,
-		contentBase: path.join(__dirname, 'dist'),
-		historyApiFallback: true,
-		host: '0.0.0.0',
-		hot: true,
-		port: 3000,
-		progress: true,
-		watchContentBase: true,
-		clientLogLevel: 'error',
-	},
 };
