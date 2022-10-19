@@ -6,7 +6,7 @@
 		"outDir": "./dist",
 		"sourceMap": true,
 		"lib": ["dom", "dom.iterable", "esnext"],
-		"allowJs": false,
+		"allowJs": true,
 		"allowSyntheticDefaultImports": true,
 		"alwaysStrict": true,
 		"skipLibCheck": true,
@@ -32,6 +32,12 @@
 			"logic/*": ["src/logic/*"],
 			"store/*": ["src/store/*"]
 		}
+	},
+	"awesomeTypescriptLoaderOptions": {
+		"useWebpackText": true,
+		"useTranspileModule": true,
+		"doTypeCheck": true,
+		"forkChecker": true
 	},
 	"include": ["src"],
 	"exclude": ["node_modules"]

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 /**
  * @author Chirag <chirag.kushwaha@314ecorp.com>
  * @description React hook useForwadedAddress
@@ -24,7 +25,7 @@ const useForwadedAddress = (params?: Address.IParams) => {
 			_.get(params, 'internalData', false),
 			_.get(params, 'limit', 250),
 			_.get(params, 'page', 1),
-			_.get(params, 'next'),
+			_.get(params, 'next',),
 			_.get(params, 'previous'),
 		);
 

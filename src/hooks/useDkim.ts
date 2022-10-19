@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 /**
  * @author Aditya Negi <aditya.negi@314ecorp.com>
  * @description React hook useDkim
@@ -16,8 +17,8 @@ import api from 'client/RequestClient';
 interface DkimProps {
 	query?: string;
 	limit?: number;
-	next?: number;
-	previous?: number;
+	next?: string;
+	previous?: string;
 	page?: number;
 }
 

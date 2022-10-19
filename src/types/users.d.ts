@@ -7,8 +7,8 @@ declare namespace IUsers {
 		metaData?: boolean;
 		internalData?: boolean;
 		page?: number;
-		next?: number;
-		previous?: number;
+		next?: string;
+		previous?: string;
 	}
 
 	interface ICreateUser {

@@ -12,8 +12,8 @@ declare namespace Address {
 		internalData?: boolean;
 		limit?: number;
 		page?: number;
-		next?: number;
-		previous?: number;
+		next?: string;
+		previous?: string;
 		options?: any;
 	}
 
